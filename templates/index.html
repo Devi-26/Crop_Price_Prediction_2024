@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Green Field</title>
+  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <!-- Compiled and minified JavaScript -->
+    <style>
+      body {
+        background-color: #f5f5f5;
+      }
+  
+      .container {
+        padding: 20px;
+      }
+  
+      .card-panel {
+        margin-bottom: 20px;
+      }
+  
+      .card-content {
+        padding: 20px;
+      }
+  
+      .card-image img {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      .card-title {
+        font-size: 1.5rem;
+      }
+  
+      .card-horizontal {
+        display: flex;
+      }
+  
+      .card-horizontal .card-image {
+        width: 30%;
+      }
+  
+      .card-horizontal .card-stacked {
+        width: 70%;
+      }
+  
+      .brand-logo img {
+        vertical-align: middle;
+      }
+  
+      .card-wrapper {
+        margin-bottom: 20px;
+      }
+  
+      .card-wrapper a {
+        color: #000000;
+      }
+  
+      .card-wrapper .card {
+        background-color: #f5f5f5;
+      }
+  
+      .card-wrapper .card-content {
+        padding: 10px;
+      }
+  
+      .card-wrapper .card-content .card-title {
+        font-size: 1.2rem;
+      }
+  
+      .card-wrapper .card-content img {
+        margin-right: 10px;
+      }
+  
+      .footer {
+        text-align: center;
+        margin-top: 50px;
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="nav-wrapper">
+      <h3 class="card-panel #ffd54f amber lighten-2 center valign-wrapper center">
+        <a class="brand-logo #ffd54f-text text-lighten-4" href="#">
+          <img alt="" src="../static/GreenLandLogo.jpeg" height="100px" width="100px" class="responsive-img">
+          <span>GREEN FIELD</span>
+        </a>
+      </h3>
+    </div>
+
+    <h5>Explore by commodity</h5>
+    <div class="row card-wrapper">
+      <div class="col s4">
+        <a href="http://localhost:5000/commodity/paddy">
+          <div class="card grey lighten-4">
+            <div class="card-content row valign-wrapper">
+              <div class="col s3">
+                <img src="https://img.icons8.com/color/48/000000/rice-bowl.png">
+              </div>
+              <div class="col s9">
+                <span class="card-title">Paddy</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col s4">
+        <a href="http://localhost:5000/commodity/wheat">
+          <div class="card grey lighten-4">
+            <div class="card-content row valign-wrapper">
+              <div class="col s3">
+                <img src="https://img.icons8.com/color/48/000000/wheat.png">
+              </div>
+              <div class="col s9">
+                <span class="card-title">Wheat</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col s4">
+        <a href="http://localhost:5000/commodity/tea">
+          <div class="card grey lighten-4">
+            <div class="card-content row valign-wrapper">
+              <div class="col s3">
+                <img src="https://img.icons8.com/color/48/000000/tea.png">
+              </div>
+              <div class="col s9">
+                <span class="card-title">Tea</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col s4">
+      <a href="http://localhost:5000/commodity/cotton" >
+      <div class="card grey lighten-4">
+        <div class="card-content row valign-wrapper">
+          <div class="col s3">
+          <img src="https://img.icons8.com/color/48/000000/cotton.png">
+        </div>
+        <div class="col s9">
+          <span class="card-title">Cotton</span>
+        </div>
+        </div>
+      </div>
+    </a>
+    </div>
+    <div class="col s4">
+      <a href="http://localhost:5000/commodity/oilseeds" style="color: #000000">
+      <div class="card grey lighten-4">
+        <div class="card-content row valign-wrapper">
+          <div class="col s3">
+          <img src="https://img.icons8.com/color/48/000000/sunflower.png">
+        </div>
+        <div class="col s9">
+          <span class="card-title">Oil Seeds</span>
+        </div>
+        </div>
+      </div>
+    </a>
+    </div>
+    <div class="col s4">
+      <a href="http://localhost:5000/commodity/coffee" style="color: #000000">
+      <div class="card grey lighten-4">
+        <div class="card-content row valign-wrapper">
+          <div class="col s3">
+          <img src="https://img.icons8.com/color/48/000000/coffee.png">
+        </div>
+        <div class="col s9">
+          <span class="card-title">Coffee</span>
+        </div>
+        </div>
+      </div>
+    </a>
+    </div>
+  </div>
+    <div class="row">
+   
+     <div class="col s4">
+      <a href="http://localhost:5000/commodity/gram" style="color: #000000">
+      <div class="card grey lighten-4">
+        <div class="card-content row valign-wrapper">
+          <div class="col s3">
+          <img src="https://img.icons8.com/color/48/000000/paper-bag-with-seeds.png">
+        </div>
+        <div class="col s9">
+          <span class="card-title">Gram</span>
+        </div>
+        </div>
+      </div>
+    </a>
+    </div>
+     <div class="col s4">
+      <a href="http://localhost:5000/commodity/sugarcane" style="color: #000000">
+      <div class="card grey lighten-4">
+        <div class="card-content row valign-wrapper">
+          <div class="col s3">
+          <img src="https://img.icons8.com/color/48/000000/bamboo.png">
+        </div>
+        <div class="col s9">
+          <span class="card-title">Sugarcane</span>
+        </div>
+        </div>
+      </div>
+    </a>
+    </div>
+    <div class="col s4">
+      <a href="http://localhost:5000/commodity/millets" style="color: #000000">
+        <div class="card grey lighten-4">
+          <div class="card-content row valign-wrapper">
+            <div class="col s3">
+              <img src="https://img.icons8.com/color/48/000000/cereal.png">
+            </div>
+            <div class="col s9">
+              <span class="card-title">Millets</span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  </div>
+  <footer class="footer">
+    <p>&copy; 2024 Green Field. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
